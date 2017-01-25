@@ -1,0 +1,71 @@
+body {
+  background: #F44336;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  /*text-align: center;*/
+}
+
+::selection {
+  background: #3f3f4e;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #212129;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #212129;
+  border-bottom: #fff 2px solid;
+}
+
+/*STYLES*/
+div.contentbox {
+	background: #FFF;
+  text-align: center;
+	height: 500px;
+	margin: 20px;
+	font-size: 28px;
+	border: #CCC 1px dashed;
+}
+.links {
+  font-size: 1.2em;
+  text-align: center;
+}
+.href {
+  color: #fff;
+  transition: 200ms;
+}
+.href:hover {
+  color: #212129;
+  transition: 200ms;
+}
+
+.backs {
+  text-align: center;
+}
+.backs .go-back {
+  background-color: #212129;
+  color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  transition: 200ms;
+}
+.backs .go-back:hover {
+  background-color: #fff;
+  color: #212129;
+  transition: 200ms;
+}

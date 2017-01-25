@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <title>Smooth Scroll</title>
+  </head>
+  <body>
+
+    <div class="title">
+    <h1>Welcome to 100 Days JavaScript Challenge</h1>
+    <p>I started this challenge for JavaScript learning</p>
+    <p class="notice"><span>Day#10</span> JavaScript Smooth Scroll</p>
+  </div>
+<div id="myheading"></div>
+<div class="links">
+  <a href="#" class="href" onclick="return false;" onmousedown="autoScrollTo('div1');">
+     Section 1</a><br />
+  <a href="#" class="href" onclick="return false;" onmousedown="autoScrollTo('div2');">
+     Section 2</a><br />
+  <a href="#" class="href" onclick="return false;" onmousedown="autoScrollTo('div3');">
+     Section 3</a><br />
+  <a href="#" class="href" onclick="return false;" onmousedown="autoScrollTo('div4');">
+     Section 4</a><br />
+</div>
+
+<div class="backs">
+  <div id="div1" class="contentbox">Div 1 content...</div>
+  <a href="#" class="go-back" onclick="return false;" onmousedown="resetScroller('myheading');">
+    go back to top</a>
+  <div id="div2" class="contentbox">Div 2 content...</div>
+  <a href="#" class="go-back" onclick="return false;" onmousedown="resetScroller('myheading');">
+    go back to top</a>
+  <div id="div3" class="contentbox">Div 3 content...</div>
+  <a href="#" class="go-back" onclick="return false;" onmousedown="resetScroller('myheading');">
+    go back to top</a>
+  <div id="div4" class="contentbox">Div 4 content...</div>
+  <a href="#" class="go-back" onclick="return false;" onmousedown="resetScroller('myheading');">
+    go back to top</a>
+</div>
+
+<script src="main.js"></script>
+
+  </body>
+</html>
